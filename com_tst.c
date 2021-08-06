@@ -217,7 +217,7 @@ int get_param(int argc, const void** argv)
         }
     }
 
-    if ((ret == 0) && ((argc == 1))) {
+    if ((ret == -1) && ((argc == 1))) {
         ret = -2;
     }
 
